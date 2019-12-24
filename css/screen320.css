@@ -1,0 +1,297 @@
+@media(max-width:320px){
+    .navlayout img{
+        width: 65px; 
+        height: 26px;
+        margin-top: 8px;
+        margin-left: 13px;
+    }
+    .navlayout{
+        height: 39px;
+        width: 100%;
+        max-width: 320px;
+    } 
+    .navbuttonlayout{
+        margin-right: 12px;
+        margin-top: 9px;
+    }
+    .login{
+        border: 1px;
+        width: 61px;
+        height: 12px;
+        font-size: 10px;
+    }
+    .signup{
+        border: 1px;
+        width: 61px;
+        height: 12px;
+        margin-left: 7px;
+        font-size: 10px;
+    }
+    .chooselayout{
+        width: 100%;
+    }
+    .chooseword{
+        margin-top: 22.03px;
+    }
+    .choosewordch{
+        font-size: 16px;
+        width: 270px;
+        height: 27px;
+    }
+    .chooseworden{
+        display: none;
+    }
+    .chooseline{
+        width:75px;
+        height: 0px;
+        border: 0.75px solid #262626;
+    }
+    .chooseinputlayout{
+        margin-top: 22px;
+        width: 210px;
+        height: 112px;
+    }
+    .choosearea{
+        margin: 0px;
+    }
+    .choosetype{
+        margin: 0px;
+    }
+    .chooserestaurant{
+        margin: 0px;
+    }
+    .select-choosearea{
+      background-position:185.34px center;
+      background-size: 12.39px 6.19px;
+      border: 1px solid #777777;
+      border-radius: 7px;
+      width:210px;
+      height:30px;
+      padding-left:10px;
+      font-size: 12px;
+    }  
+    .select-choosetype{
+        background-position:185.34px center;
+        background-size: 12.39px 6.19px;
+        border: 1px solid #777777;
+        border-radius: 7px;
+        width:210px;
+        height:30px;
+        padding-left:10px;
+        font-size: 12px;
+    }
+    .input-chooserestaurant{
+        border: 1px solid #777777;
+        border-radius: 7px;
+        width: 210px;
+        height: 30px;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .submit-chooserestaurant{
+        background-size: 11px 11px;
+        z-index: 3;
+        width: 11px;
+        height: 11px;
+        margin-left: -24px;
+        margin-top: 20px;
+    }
+    .meallayout{
+        width: 84px;
+    }
+    .mealtitle{
+        margin-top: 25px;
+    }
+    .mealtitle img{
+        width: 125px;
+        height: auto;
+    }
+    .mealboxlayout{
+        margin-top: 18px;
+        flex-wrap: wrap;
+        width: 277px;
+        justify-content: space-between;
+    }
+    .mealbox{
+        width: 129px;
+        height: 236px;
+        margin-bottom: 15px;
+    }
+    .mealbox1{
+        display: none;
+    }
+    .mealbox img{
+        width: 95px;
+        height: 95px;
+        margin-top: 12px;
+    }
+    .mealboxtitle{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .mealboxtitletime{
+        margin-right: 50px;
+        width: 60px;
+        height: 16px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .mealtime{
+        width: auto;
+        height: 42px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .mealbutton{
+        margin-top: 0px;
+        width: 60px;
+        height: 23px;
+        border-radius: 16px;
+        color: white;
+        font-size: 10px;
+    }
+    /* footer */
+    footer{
+        height: 198px;
+        margin-top: 31px;
+        width: 100%;
+
+    }
+    .footerlayout{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    .footerlayout1{
+        width: 30%;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    .footerlayout2{
+        width: 20%;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+    }
+
+    .footerlogo{
+        margin-top: 27px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .footerlogo img{
+        width: 65px;
+        height: 25.61px;
+    }
+    .footerlink{
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 10.03px;
+        width: auto;
+    }
+    .footerlink img{
+        width: 10.03px;
+        height: auto;
+        margin-right: 6.71px;
+        margin-top: 0;
+    }
+    .footerapplink{
+        margin-top: 12.98px;      
+        flex-direction: row;
+        width: 151px;
+        justify-content:center;
+    }
+    .googleplay{
+        width: 68px;
+        height: 23px;
+    }
+    .appstore{
+        width: 68px;
+        height: 23px;
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    .footerword{
+        display: none;
+        font-size: 10px;
+        width: 141px;
+        height: 14px;
+        margin-bottom: 0px;
+        color:white
+    }
+
+    .footerwordrow1{
+        margin-top:17.57px;
+        width: 141px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .footerwordrow2{
+        margin-top: 5px;
+        width: 141px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .footerwordrow3{
+        margin-top: 5px;
+        width: 141px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    .show{
+        display: block;
+        width: auto;
+        font-size: 10px;
+    }
+    
+    .show a:hover{
+        padding-bottom: 2px;
+    }
+    
+    /* 輪播圖 */
+    .img_box{
+        width:100%;
+        height:195.29px;
+    }  
+    .img_box img{
+        width:100%;
+    }  
+    .img_box1{
+        height:195.29px;
+        top: 150px;
+        left: 44%;
+        z-index: 10;
+    }
+    .img_box1 img{
+        width: 39px;
+        height: auto;
+    }
+    .ul5{
+        display: none;
+        right:21px;
+        top:130px;
+    } 
+    .ul5 li{
+        margin-bottom:6px;
+        width:9px;
+        height:9px;
+        border:1px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4.5px;
+    }
+    .navbackdround{
+        width: 100%;
+        height: 39px;
+    }   
+   }

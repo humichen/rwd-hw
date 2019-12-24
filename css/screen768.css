@@ -1,0 +1,257 @@
+@media(max-width:768px){
+    .navlayout img{
+        width: 105px; 
+        height: 41px;
+        margin-top: 20px;
+        margin-left: 39px;
+    }
+    .navlayout{
+        height: 76px;
+        width: 100%;
+        max-width: 768px;
+    }
+    .navbuttonlayout{
+        margin-right: 21px;
+        margin-top: 25px;
+    }
+    .login{
+        width: 85px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .signup{
+        width: 85px;
+        height: 30px;
+        margin-left: 9px;
+        font-size: 14px;
+    }   
+    .chooselayout{
+        width: 100%;
+    }
+    .chooseword{
+        margin-top: 51px;
+    }
+    .choosewordch{
+        font-size: 28px;
+        width: 190px;
+        height: 34px;
+    }
+    .chooseworden{
+        font-size: 17px;
+        margin-top: 5px;
+        width: 250px;
+        height: 26px;
+    }
+    .chooseline{
+        width:250px;
+        height: 0px;
+        border: 1px solid #262626;
+        margin-top: 5.6px;
+    }
+    .chooseinputlayout{
+        margin-top: 28px;
+        flex-wrap: wrap;
+        width: 331px;
+    }
+    .choosearea{
+        margin-left: 0px;
+    }
+    .choosetype{
+        margin-left: 21px;
+    }
+    .chooserestaurant{
+        margin-left: 0px;
+    }
+    .select-choosearea{
+      background-position:125.34px center;
+      background-size: 17.3px 8.65px;
+      border: 1px solid #777777;
+      border-radius: 9px;
+      width:155px;
+      height:37px;
+      background-color:#FFFFFF;
+      color:#707070;
+      padding-left:15px;
+      font-size: 14px;
+    }  
+    .select-choosetype{
+        background-position:124.34px center;
+        background-size: 17.3px 8.65px;
+        border: 1px solid #777777;
+        border-radius: 9px;
+        width:155px;
+        height:37px;
+        padding-left:15px;
+        background-color:#FFFFFF;
+        color:#707070;
+        font-size: 14px;
+    }
+    .input-chooserestaurant{
+        border: 1px solid #777777;
+        border-radius: 9px;
+        width: 331px;
+        height: 37px;
+        font-size: 14px;
+        padding-left: 15px;
+        margin-top: 14px;
+    }
+    .submit-chooserestaurant{
+        background-size: 14px 14px;
+        z-index: 3;
+        width: 14px;
+        height: 14px;
+        margin-left: -28px;
+        margin-top: 26px;
+    }
+    .meallayout{
+        width: 585px;
+    }
+    .mealtitle{
+        margin-top: 16px;
+    }
+    .mealtitle img{
+        width: 125px;
+        height: auto;
+    }
+    .mealboxlayout{
+        margin-top: 21px;
+    }
+    .mealbox{
+        width: 182px;
+        height: 309px;
+        margin-bottom: 15px;
+    }
+    .mealbox1{
+        display: flex;
+        width: 182px;
+        height: 309px;
+        margin-bottom: 15px;
+    }
+    .mealbox img{
+        width: 143px;
+        height: 143px;
+        margin-top: 15px;
+    }
+    .mealbox1 img{
+        width: 143px;
+        height: 143px;
+        margin-top: 15px;
+    }
+    .mealboxtitle{
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .mealboxtitletime{
+        margin-right: 20px;
+        width: 111px;
+        height: 21px;
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    .mealtime{
+        width: auto;
+        height: 48px;
+        font-size: 14px;
+    }
+    .mealbutton{
+        margin-top: 0px;
+        width: 76.8px;
+        height: 29.57px;
+        border-radius: 28px;
+        color: white;
+        font-size: 13px;
+    }
+    /* footer */
+    footer{
+        height: 154px;
+        margin-top: 43px;
+        width: 100%;
+    }
+    .footerlogo{
+        margin-top: 36px;
+    }
+    .footerlogo img{
+        width: 99px;
+        height: 38.16px;
+    }
+    .footerlink{
+        margin-left: 0px;
+    }
+    .footerlink img{
+        width: 15.87px;
+        height: auto;
+        margin-right: 10.61px;
+    }
+    .footerapplink{
+        margin-top: 36px;
+    }
+    .googleplay{
+        width: 113px;
+        height: 36px;
+    }
+    .appstore{
+        width: 113px;
+        height: 36px;
+        margin-top: 8px;
+    }
+    .footerwordrow1{
+        margin-top: 34px;
+        width: 121px;
+        height: auto;
+    }
+    .footerwordrow2{
+        margin-top: 34px;
+    }
+    .footerwordrow3{
+        margin-top: 34px;
+        width: 141px;
+        height: auto;
+    }
+    
+    .footerword{
+        font-size: 12px;
+        width: 141px;
+        height: 28px;
+        margin-bottom: 4px;
+        color:white
+    }
+    
+    .footerword a:hover{
+        padding-bottom: 2px;
+    }
+    
+    /* 輪播圖 */
+    .img_box{
+        width:100%;
+        height:467px;
+    }  
+    .img_box img{
+        width:100%;
+    }  
+    .img_box1{
+        height:467px;
+        top: 400px;
+        left: 44%;
+        z-index: 10;
+    }
+    .img_box1 img{
+        width: 60px;
+        height: auto;
+    }
+    .ul5{
+        right:21px;
+        top:130px;
+    } 
+    .ul5 li{
+        margin-bottom:6px;
+        width:9px;
+        height:9px;
+        border:1px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4.5px;
+    }
+    .navbackdround{
+        width: 100%;
+        height: 76px;
+    }
+   }
