@@ -1,3 +1,19 @@
+@media(max-width:416px){
+    .chooseword{
+        margin-top: 30px;
+    }
+    .img_box{
+        width:100%;
+        height:300px;
+    } 
+    .ul5{
+        top:110px;
+    }
+    .mealbox1{
+        display: none;
+    }
+
+}
 @media(max-width:320px){
     .navlayout img{
         width: 65px; 
@@ -50,22 +66,28 @@
         margin-top: 22px;
         width: 210px;
         height: 112px;
+        flex-direction: column;
     }
     .choosearea{
         margin: 0px;
+        width: 100%;
+        padding: 0;
     }
     .choosetype{
         margin: 0px;
+        width: 100%;
+        padding: 0;
     }
     .chooserestaurant{
         margin: 0px;
+        width: 100%;
+        padding: 0;
     }
     .select-choosearea{
       background-position:185.34px center;
       background-size: 12.39px 6.19px;
       border: 1px solid #777777;
       border-radius: 7px;
-      width:210px;
       height:30px;
       padding-left:10px;
       font-size: 12px;
@@ -75,7 +97,6 @@
         background-size: 12.39px 6.19px;
         border: 1px solid #777777;
         border-radius: 7px;
-        width:210px;
         height:30px;
         padding-left:10px;
         font-size: 12px;
@@ -83,7 +104,6 @@
     .input-chooserestaurant{
         border: 1px solid #777777;
         border-radius: 7px;
-        width: 210px;
         height: 30px;
         font-size: 12px;
         padding-left: 10px;
@@ -263,6 +283,7 @@
     .img_box{
         width:100%;
         height:195.29px;
+
     }  
     .img_box img{
         width:100%;
@@ -279,8 +300,6 @@
     }
     .ul5{
         display: none;
-        right:21px;
-        top:130px;
     } 
     .ul5 li{
         margin-bottom:6px;

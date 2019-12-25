@@ -80,6 +80,14 @@ $(document).ready(function(){
     li.mouseup(function(){
     t=setInterval(show,5000);
     })
+
+    // $('.carousel').carousel({
+    //   interval: 2000
+    // })
+
+    var height=$(".img_box img").width;
+    $('.chooselayout').css("margin-top",height)
+
     var banner=$(".img_box img").height()-139;
     $(window).scroll(function() {
         if ( $(this).scrollTop() > banner ){
@@ -89,4 +97,5 @@ $(document).ready(function(){
           $('.navbackdround').fadeOut(222);
         }
       }).scroll();
+
     })

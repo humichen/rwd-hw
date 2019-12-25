@@ -137,20 +137,24 @@ a{
 
 .chooseinputlayout{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 72.5px;
+    width: 85%;
 }
 
 .choosearea{
-    margin-left: 68px;
+    margin-left: 0px;
+    width: 25%;
 }
 
 .choosetype{
-    margin-left: 80px;
+    margin-left: 0px;
+    width: 25%;
 }
 
 .chooserestaurant{
-    margin-left: 85px;
+    margin-left: 0px;
+    width: 40%;
 }
 
 .select-choosearea{
@@ -158,11 +162,11 @@ a{
   -moz-appearance:none;
   -webkit-appearance:none;
   background: url("../img/L - 1920/Section/icon_search2.png") no-repeat transparent;
-  background-position:243px center;
+  background-position:90% center;
   background-size: 28.6px 14.3px;
   border: 1px solid #777777;
   border-radius: 18px;
-  width:297px;
+  width:100%;
   height:70px;
   padding-left:29px;
   background-color:#FFFFFF;
@@ -180,11 +184,11 @@ a{
     -moz-appearance:none;
     -webkit-appearance:none;
     background: url("../img/L - 1920/Section/icon_search2.png") no-repeat transparent;
-    background-position:243px center;
+    background-position:90% center;
     background-size: 28.6px 14.3px;
     border: 1px solid #777777;
     border-radius: 18px;
-    width:292px;
+    width:100%;
     height:70px;
     padding-left:29px;
     background-color:#FFFFFF;
@@ -200,7 +204,7 @@ a{
 .input-chooserestaurant{
     border: 1px solid #777777;
     border-radius: 18px;
-    width: 643px;
+    width: 100%;
     height: 70px;
     font-size: 24px;
     padding-left: 26px;
@@ -223,7 +227,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1475px;
+    width: 90%;
 }
 
 .mealtitle{
@@ -233,7 +237,7 @@ a{
 .mealboxlayout{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30.5px;
 }
 
@@ -260,6 +264,12 @@ a{
 }
 
 .mealbox img{
+    width: 269px;
+    height: 269px;
+    margin-top: 30.5px;
+}
+
+.mealbox1 img{
     width: 269px;
     height: 269px;
     margin-top: 30.5px;
@@ -332,7 +342,7 @@ footer{
 
 .footerlayout{
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
 }
 .footerlayout1{
@@ -418,14 +428,20 @@ footer{
 }
 
 /* 輪播圖 */
+/* #second_div{
+    width: 100%;
+} */
     .img_box{
     overflow: hidden;
     width:100%;
-    height:1168px;
-    position:relative;
+    /* height:auto !important; */
+    height:1172px;
+    /* min-height:467px ; */
+    position: relative;
     }  
     .img_box img{
     width:100%;
+    height: auto;
     position:absolute;
     }  
 
@@ -448,7 +464,7 @@ footer{
         list-style: none;
         position:absolute;
         right:57px;
-        top:340px;
+        top:506px;
         display: flex;
         flex-direction: column;
     } 

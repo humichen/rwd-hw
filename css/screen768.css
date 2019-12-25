@@ -52,22 +52,24 @@
         margin-top: 28px;
         flex-wrap: wrap;
         width: 331px;
+        justify-content: space-between;
     }
     .choosearea{
         margin-left: 0px;
+        width: 46%;
     }
     .choosetype{
-        margin-left: 21px;
+        width: 46%;
     }
     .chooserestaurant{
         margin-left: 0px;
+        width: 100%;
     }
     .select-choosearea{
-      background-position:125.34px center;
+      background-position:90%  center;
       background-size: 17.3px 8.65px;
       border: 1px solid #777777;
       border-radius: 9px;
-      width:155px;
       height:37px;
       background-color:#FFFFFF;
       color:#707070;
@@ -75,11 +77,10 @@
       font-size: 14px;
     }  
     .select-choosetype{
-        background-position:124.34px center;
+        background-position:90%  center;
         background-size: 17.3px 8.65px;
         border: 1px solid #777777;
         border-radius: 9px;
-        width:155px;
         height:37px;
         padding-left:15px;
         background-color:#FFFFFF;
@@ -89,7 +90,6 @@
     .input-chooserestaurant{
         border: 1px solid #777777;
         border-radius: 9px;
-        width: 331px;
         height: 37px;
         font-size: 14px;
         padding-left: 15px;
@@ -104,7 +104,7 @@
         margin-top: 26px;
     }
     .meallayout{
-        width: 585px;
+        width: 90%;
     }
     .mealtitle{
         margin-top: 16px;
@@ -174,6 +174,21 @@
         width: 99px;
         height: 38.16px;
     }
+    .footerlayout{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+    }
+    .footerlayout1{
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }
+    .footerlayout2{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
     .footerlink{
         margin-left: 0px;
     }
@@ -201,6 +216,7 @@
     }
     .footerwordrow2{
         margin-top: 34px;
+        width: 60px;
     }
     .footerwordrow3{
         margin-top: 34px;
@@ -210,7 +226,6 @@
     
     .footerword{
         font-size: 12px;
-        width: 141px;
         height: 28px;
         margin-bottom: 4px;
         color:white
@@ -240,7 +255,7 @@
     }
     .ul5{
         right:21px;
-        top:130px;
+        top:200px;
     } 
     .ul5 li{
         margin-bottom:6px;
